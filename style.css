@@ -5,12 +5,16 @@ html, body, *{
     font-size: 62.5%;
 }
 
-.userinput{
+.form{
     text-align: center;
+    font-size: 3rem;
+    font-family: "Quicksand", sans-serif;
+    margin: 2rem auto;
+}
+
+.title{
     font-size: 4.5rem;
     font-family: "Quicksand", sans-serif;
 }
-.form{
-    margin: 2rem auto;
-}
+
 

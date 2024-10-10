@@ -1,21 +1,15 @@
-
-
 const DOMSelectors = {
-    header: document.querySelector("h1"),
-    item: document.querySelectorAll("li"),
-    cardHeader: document.querySelector(".cardheader"),
-    button: document.querySelector("btn")
-}
-let student = {
-    name: "bruh",
-    age: 15,
-    gf: true,
+    header: document.querySelector(".title"),
+/*     cardHeader: document.querySelector(".cardheader"), */
+    button: document.querySelector("button"),
+    form: document.querySelector(".form"),
+    container: document.querySelector(".container")
 }
 
-console.log(DOMSelectors.header)
+
 DOMSelectors.button.addEventListener("click", function(event){
-    console.log(event.target.parentElement)
-    event.target.parentElement.style.backgroundColor = "red";
+    event.preventDefault()
+
 })
 
 
