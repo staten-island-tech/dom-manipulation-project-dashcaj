@@ -6,7 +6,7 @@ html, body, *{
 }
 
 body{
-    background-color: antiquewhite;
+    background-color: rgb(209, 213, 255);
 }
 .form{
     text-align: center;
@@ -46,8 +46,8 @@ body{
 }
 
 .box{
-    border: 8px solid rgb(102, 104, 248);
-    background-color: rgb(151, 179, 255);
+    border: 8px solid rgb(2, 4, 105);
+    background-color: rgb(50, 97, 224);
     border-radius: 8px;
     padding: 1rem;
     width: 33rem;
@@ -55,7 +55,7 @@ body{
     overflow: hidden;
     margin-top: 5rem;
     margin-bottom: 2rem;
-    box-shadow: 5px 5px 5px  rgb(0, 29, 126);
+    box-shadow: 5px 5px 5px  rgb(1, 13, 53);
 
 }
 
