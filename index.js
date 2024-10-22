@@ -33,7 +33,7 @@ function createCard({ name, position, image }) {
         </div>
 </div>
     `;
-    DOMSelectors.container.appendChild(card);
+
 
     const deleteButton = card.querySelector('.deletebtn');
     deleteButton.addEventListener('click', () => {
