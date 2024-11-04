@@ -20,7 +20,7 @@ function handleFormSubmit(event) {
     clearForm();
 }
 
-function createCard({ name, position, image }) {
+function createCard({name, position, image}) {
     const card = document.createElement('div');
     card.classList.add('card');
     card.innerHTML = `
@@ -34,6 +34,18 @@ function createCard({ name, position, image }) {
 </div>
     `;
 
+
+
+
+
+
+
+
+
+
+
+
+    
 
     const deleteButton = card.querySelector('.deletebtn');
     deleteButton.addEventListener('click', () => {
